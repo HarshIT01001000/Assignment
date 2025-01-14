@@ -24,18 +24,18 @@ function Testimonials(){
             <ReusableCard item1={<RiDoubleQuotesR className="text-3xl text-yellow-600"/>}
             item3={<div className="mt-[-1rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolor iure eveniet delectus modi temporibus quo vitae nostrum quam voluptatum voluptate, mollitia, magni non quasi ducimus dolores praesentium porro iste!</div>}
             item4={<div className="">
-                   <div>Sara Thompson</div>
-                   <div className="font-normal text-[0.8rem]">Product Manager</div>
-                   <div className="text-green-700 flex"><FaSpotify className="mt-1 mr-1  text-xl" />Spotify</div>
+                   <div>Alexa Rivera</div>
+                   <div className="font-normal text-[0.8rem]">Marketing Lead</div>
+                   <div className=" flex">DocuSign</div>
             </div>}>
             
             </ReusableCard>
             <ReusableCard item1={<RiDoubleQuotesR className="text-3xl text-yellow-600"/>}
             item3={<div className="mt-[-1rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolor iure eveniet delectus modi temporibus quo vitae nostrum quam voluptatum voluptate, mollitia, magni non quasi ducimus dolores praesentium porro iste!</div>}
             item4={<div className="">
-                   <div>Sara Thompson</div>
-                   <div className="font-normal text-[0.8rem]">Product Manager</div>
-                   <div className="text-green-700 flex"><FaSpotify className="mt-1 mr-1  text-xl" />Spotify</div>
+                   <div>David lee</div>
+                   <div className="font-normal text-[0.8rem]">Operation Director</div>
+                   <div className=" flex">Codecademy</div>
             </div>}>
             
             </ReusableCard>
