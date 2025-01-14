@@ -1,6 +1,20 @@
 function Footer(){
     return(
         <>
+        <div className="navbar bg-base-100 flex">
+  <div className="flex-1 flex-col ">
+    <p className="font-bold text-2xl">Join our news letter</p>
+    <p>Get Updates us weekly</p>
+  </div>
+  <div className="flex-none gap-2">
+    <div className="form-control">
+      <input type="text" placeholder="  Enter your email" className="input input-bordered w-24 md:w-auto" />
+    </div>
+    <div className="">
+    <button className="btn">Subscribe</button>
+    </div>
+  </div>
+</div>
         <footer className="footer bg-base-200 text-base-content p-10">
   <nav>
     <h6 className="footer-title ">Services</h6>
@@ -22,21 +36,7 @@ function Footer(){
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </nav>
-  <form>
-    <h6 className="footer-title">Newsletter</h6>
-    <fieldset className="form-control w-80">
-      <label className="label">
-        <span className="label-text">Enter your email address</span>
-      </label>
-      <div className="join">
-        <input
-          type="text"
-          placeholder="username@site.com"
-          className="input input-bordered join-item" />
-        <button className="btn btn-primary join-item">Subscribe</button>
-      </div>
-    </fieldset>
-  </form>
+
 </footer>
         </>
     )

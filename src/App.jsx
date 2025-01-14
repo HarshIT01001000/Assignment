@@ -8,6 +8,7 @@ import Benefits from "./Components/HomePages/Benifits"
 import Advantages from "./Components/HomePages/Advantages"
 import Features from "./Components/HomePages/Features"
 import PlayNow from "./Components/HomePages/PlayNow"
+import PlayNow2 from "./Components/HomePages/PlayNow2"
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
       <Testimonials></Testimonials>
       <Performance></Performance>
       <Price></Price>
+      <PlayNow2></PlayNow2>
       <Footer></Footer>
     </>
   )
