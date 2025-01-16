@@ -14,7 +14,8 @@ function Advantages(){
             <ReusableCard 
               bgColor="bg-orange-100" 
               BoxColor="bg-white" 
-              Icons=" bg-orange-200" item1={"01"} 
+              Icons=" bg-orange-200" 
+              item1={"01"} 
               item2={<>To-Do-List</>} 
               item3={<>Lorem, ipsum dol accusamus dignissimos odit voluptas dolores mollitia quo perferendis accusantium omnis blanditiis deserunt cum?</>} 
               item4={<><div className="flex">Learn More <FaLongArrowAltRight className="mt-[0.4rem] ml-[0.2rem]"></FaLongArrowAltRight></div></>} 
