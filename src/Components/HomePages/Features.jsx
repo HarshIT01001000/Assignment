@@ -3,7 +3,6 @@ import ReusableLayout from "../HomeCompo/ReusableLayout";
 import { FaParachuteBox } from "react-icons/fa";
 import { GoGoal } from "react-icons/go";
 import { FaTasks } from "react-icons/fa";
-import { IoChatbox } from "react-icons/io5";
 
 function Features() {
     return (
@@ -63,22 +62,6 @@ function Features() {
                     }
                   />
                 </div>
-                {/* <div className="">
-                  <HomeReusableCard
-                    bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
-                    BoxColor="bg-base-200"
-                    IconColor="text-yellow-400"
-                    item1={<IoChatbox />}
-                    item2={<>Team Chat</>}
-                    item3={
-                      <>
-                        Lorem, ipsum dol accusamus dignissimos odit voluptas
-                        dolores mollitia quo perferendis accusantium omnis
-                        blanditiis deserunt cum?
-                      </>
-                    }
-                  />
-                </div>  */}
               </div>
             </>
           }

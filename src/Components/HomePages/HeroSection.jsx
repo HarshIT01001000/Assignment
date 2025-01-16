@@ -26,16 +26,13 @@ function HeroSection() {
         </div>
        
        {/* Images */}
-       {/* <div className="pt-5 p-2">
-          <img src={img} className="md:w-[70rem] md:h-[30rem]"></img>
-       </div> */}
 
        <div className=" text-gray-500 pt-5 font-semibold">
         We Are Trusted By
        </div>
 
 
-       {/* Logos */}
+       {/* Icons */}
        <div className="md:flex md:flex-row md:space-y-0 space-y-3 md:space-x-8 lg:space-x-14 mt-8">
        <div className=" flex md:placeholder md:text-2xl font-bold"><FaMailchimp className="mt-1 mr-1  text-3xl" /><span className="text-black">Mailchimp </span></div>
        <div className="text-red-500 flex md:text-2xl font-bold"><SiDoordash className="mt-1 mr-1  text-3xl" />DOORDASH</div>
