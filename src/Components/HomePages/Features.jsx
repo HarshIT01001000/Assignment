@@ -19,7 +19,7 @@ function Features() {
                   <ReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
-                    IconColor="text-green-500"
+                    Icons="text-green-500"
                     item1={<FaParachuteBox />}
                     item2={<>Make Smart Decisions</>}
                     item3={
@@ -35,7 +35,7 @@ function Features() {
                   <ReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
-                    IconColor="text-pink-600"
+                    Icons="text-pink-600"
                     item1={<GoGoal />}
                     item2={<>Optimize Your Goals</>}
                     item3={
@@ -51,7 +51,7 @@ function Features() {
                   <ReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
-                    IconColor="text-purple-400"
+                    Icons="text-purple-400"
                     item1={<FaTasks />}
                     item2={<>Task Management</>}
                     item3={
